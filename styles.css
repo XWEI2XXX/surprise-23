@@ -1,0 +1,219 @@
+h1{
+    margin: auto;
+    text-align: center;
+    height: 50px;
+    width: 70%;
+    background-color: lightsteelblue;
+    filter: opacity(0.7);
+    padding: 25px;
+    margin: auto;
+    color: darkred;
+    font-family: 'Sevillana', cursive;
+    border-radius: 10px 100px / 120px;
+    font-size: 50px;
+
+}
+
+header{
+    background-color: midnightblue;
+}
+
+.Christmas{
+    text-align: center;
+    position: relative;
+    height: 500px;
+    width: 500px;
+    border-radius: 120px;
+    background-color: midnightblue;
+    margin: auto;
+    top: 15px;
+    bottom: 10px;
+}
+
+.tree{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 15%;
+    top: 5px;
+}
+
+.triangle1{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    position: absolute;
+    background-color: #264C39;
+    height: 40%;
+    width: 60%;
+    bottom: 20%;
+    left: 5%;
+    z-index: 1;
+}
+
+.triangle2{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    position: absolute;
+    background-color: #33664C;
+    height: 33%;
+    width: 48%;
+    bottom: 36%;
+    left: 10.5%;
+    z-index: 2;
+}
+
+.triangle3{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    position: absolute;
+    background-color: #4C9972;
+    height: 25%;
+    width: 40%;
+    bottom: 50%;
+    left: 14%;
+    z-index: 3;
+}
+
+.trunk{
+    position: absolute;
+    border-radius: 10px;
+    background-color: #966F33;
+    bottom: 7px;
+    height: 30%;
+    width: 10%;
+    left: 28%;
+    z-index: 0;
+    box-shadow: 6px 2px 0 0 black;
+}
+
+.star{
+    position: absolute;
+    clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+    );
+    background-color: yellow;
+    height: 22%;
+    width: 23%;
+    left: 22.5%;
+    top: 10%;
+    z-index: 5;
+}
+
+.star2{
+    position: absolute;
+    clip-path: polygon(
+        50% 0%,
+        61% 35%,
+        98% 35%,
+        68% 57%,
+        79% 91%,
+        50% 70%,
+        50% 70%,
+        50% 60%,
+        50% 46%,
+        50% 36%
+    );
+    background-color: gold;
+    height: 22%;
+    width: 23%;
+    left: 22.5%;
+    top: 10%;
+    z-index: 6;
+}
+
+.star-light{
+    position: absolute;
+    border-radius: 50%;
+    background-color: lightgoldenrodyellow;
+    filter: opacity(90);
+    height: 25%;
+    width: 25%;
+    left: 21.5%;
+    top: 7%;
+    z-index: 2;
+    animation: star 4s  ease-in-out infinite;
+}
+
+@keyframes star {
+    100% {
+        transform: scale(0.7);
+    }
+
+    50%{
+        transform: scale(1.1);
+    }
+
+    0%{
+        transform: scale(0.7);
+    }
+}
+
+.ornament{
+    position: absolute;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    z-index: 4;
+    box-shadow: 1px 1px 0 0 lightgray;
+    
+}
+
+.shine{
+    position: absolute;
+    border-radius: 50%;
+    height: 50%;
+    width: 50%;
+    background-color: white;
+    filter: opacity(0.7);
+    top: 35%;
+    left: 43%;    
+}
+
+.or1 {
+    left: 28%;
+    top: 34%;
+    background: #0742d9;
+  }
+
+  .or2 {
+    left: 21%;
+    top: 48%;
+    background: red;
+  }
+
+  .or3 {
+    left: 25%;
+    top: 68%;
+    background: yellow;
+  }
+
+  .or4 {
+    left: 36%;
+    top: 60%;
+    background: blueviolet;
+  }
+
+  .or5 {
+    left: 50%;
+    top: 47%;
+    background: grey;
+  }
+
+  .or6 {
+    left: 55%;
+    top: 73%;
+    background: orange;
+  }
+
+  .or7 {
+    left: -750%;
+    top: 73%;
+    background-color: darkseagreen;
+  }
